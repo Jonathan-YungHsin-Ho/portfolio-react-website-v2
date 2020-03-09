@@ -4,7 +4,7 @@ export const projects = [
 		thumbnail: '#096dd9',
 		iconColor: 'white',
 		fields: {
-			Product: 'QualityHub + InterviewQ',
+			Project: 'QualityHub + InterviewQ',
 			'Team Role':
 				'Full-Stack Web Developer on cross-functional team with two UX Designers and six other Full-Stack Web Developers',
 			Description:
@@ -55,7 +55,7 @@ export const projects = [
 		'thumbnail-border': '#14121f',
 		iconColor: '#121212',
 		fields: {
-			Product: 'JAMbda Treasure Hunt',
+			Project: 'JAMbda Treasure Hunt',
 			'Team Role':
 				'Front-End Framework Developer on cross-functional team with one Django Back-End Developer/Front-End Developer and one Data Scientist',
 			Description:
@@ -87,7 +87,7 @@ export const projects = [
 		thumbnail: '#bb1333',
 		iconColor: 'white',
 		fields: {
-			Product: 'The Legend of Lambda',
+			Project: 'The Legend of Lambda',
 			'Team Role':
 				'Front-End Framework Developer on cross-functional team with two Back-End Developers and one other Front-End Developer',
 			Description:
@@ -115,7 +115,7 @@ export const projects = [
 		thumbnail: '#8ac64b',
 		iconColor: '#121212',
 		fields: {
-			Product: 'International Child Nutrition Status Tracking',
+			Project: 'International Child Nutrition Status Tracking',
 			'Team Role':
 				'Front-End Framework Developer and Back-End Developer on cross-functional team with one Web UI Developer and two other Front-End Developers',
 			Description:
@@ -123,7 +123,7 @@ export const projects = [
 			'Front-End':
 				'ReactJS, React Router, Context API, React Hooks, axios, recharts, styled-components',
 			'Back-End':
-				'Node.js, Express, bcryptjs, cors, dotenv, helmet, jsonwebtoken, knex, knex-cleaner, sqlite (development), nodemon (development), pg (production)',
+				'Node.js, Express, bcryptjs, cors, dotenv, helmet, jsonwebtoken, knex, knex-cleaner, sqlite (development), nodemon (development), pg (Production)',
 		},
 		site: 'https://icnst.netlify.com/',
 		links: [

@@ -124,6 +124,12 @@ a {
 	background: silver;
 }
 
+.anchor {
+	display: block;
+	height: 4.6rem;
+	margin-top: -4.6rem;
+	visibility: hidden;
+}
 
 /* Dark Mode */
 

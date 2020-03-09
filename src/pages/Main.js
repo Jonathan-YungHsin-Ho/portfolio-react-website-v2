@@ -1,17 +1,13 @@
 import React from 'react';
 import { Landing, Projects, Skills } from '../components';
-import styled from 'styled-components';
+import { PageWrapper } from '../styled-components/StyledComponents';
 
 export default function Main() {
 	return (
-		<StyledMain>
+		<PageWrapper>
 			<Landing />
 			<Projects />
 			<Skills />
-		</StyledMain>
+		</PageWrapper>
 	);
 }
-
-const StyledMain = styled.div`
-	margin: 4.6rem 0 5rem;
-`;

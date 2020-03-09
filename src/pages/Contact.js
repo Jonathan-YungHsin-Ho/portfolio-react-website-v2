@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import styled from 'styled-components';
-import { SectionWrapper } from '../styled-components/StyledComponents';
+import { PageWrapper } from '../styled-components/StyledComponents';
 
 export default function Contact() {
 	const [message, setMessage] = useState({
@@ -18,7 +18,7 @@ export default function Contact() {
 	};
 
 	return (
-		<SectionWrapper>
+		<PageWrapper>
 			<ContactPage>
 				<h2>Get In Touch</h2>
 				<p>
@@ -50,10 +50,12 @@ export default function Contact() {
 					<button onClick={handleSubmit}>Send Message</button>
 				</form>
 			</ContactPage>
-		</SectionWrapper>
+		</PageWrapper>
 	);
 }
 
 const ContactPage = styled.section`
 	margin: 10rem auto;
+	width: 98%;
+	max-width: 54rem;
 `;

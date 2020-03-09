@@ -1,19 +1,26 @@
 import React from 'react';
-import { NavLink } from 'react-router-dom';
+import { NavLink, useLocation } from 'react-router-dom';
+import { HashLink as Link } from 'react-router-hash-link';
 import styled from 'styled-components';
 import Title from './Title';
 
 export default function NavBar() {
+	const location = useLocation();
+
 	return (
 		<StyledNav className='nav-bar'>
 			<Title />
 			<div className='nav-bar-links'>
-				<NavLink to='/projects' activeClassName='active'>
-					Products
-				</NavLink>
-				<NavLink to='/skills' activeClassName='active'>
+				<Link
+					to='/#projects'
+					className={location.hash === '#projects' ? 'active' : ''}>
+					Projects
+				</Link>
+				<Link
+					to='/#skills'
+					className={location.hash === '#skills' ? 'active' : ''}>
 					Skills
-				</NavLink>
+				</Link>
 				<NavLink to='/about' activeClassName='active'>
 					About Me
 				</NavLink>

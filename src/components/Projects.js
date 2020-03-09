@@ -8,9 +8,10 @@ export default function Projects() {
 	return (
 		<SectionWrapper>
 			<section className='projects-page'>
-				<h2>Products</h2>
-				{projects.map(project => (
-					<Project project={project} />
+				<span className='anchor' id='projects'></span>
+				<h2>Projects</h2>
+				{projects.map((project, index) => (
+					<Project key={index} project={project} />
 				))}
 			</section>
 		</SectionWrapper>

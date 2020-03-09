@@ -7,6 +7,7 @@ export default function Skills() {
 	return (
 		<SectionWrapper>
 			<section className='skills-page'>
+				<span className='anchor' id='skills'></span>
 				<h2>Skills & Tech Stack</h2>
 				<div className='skills-content'>
 					<div className='skills-block'>
