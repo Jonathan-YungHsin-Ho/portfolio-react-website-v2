@@ -1,19 +1,28 @@
 import React from 'react';
-
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import ProjectLink from './ProjectLink';
 
 export default function Project({ project }) {
 	const imageStyle = {
 		backgroundImage: `url(/images/${project.image})`,
 		cursor: project && 'pointer',
-		overflowX: !project && 'hidden',
-		boxShadow: !project && 'none',
+		display: 'flex',
+		justifyContent: 'flex-end',
+		alignItems: 'flex-end',
+		padding: '1rem',
 	};
 
 	return (
 		<div className='project-summary'>
 			<a href={project.site} target='_blank' rel='noopener noreferrer'>
-				<div className='project-image' style={imageStyle}></div>
+				<div className='project-image' style={imageStyle}>
+					<FontAwesomeIcon
+						icon={['fas', 'external-link-alt']}
+						size='sm'
+						className='icon'
+						color={project.iconColor}
+					/>
+				</div>
 			</a>
 			<div className='project-text'>
 				<div className='project-fields'>

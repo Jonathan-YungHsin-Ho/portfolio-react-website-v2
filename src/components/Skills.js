@@ -1,10 +1,11 @@
 import React from 'react';
-import SkillCategory from '../components/SkillCategory';
+import { SectionWrapper } from '../styled-components/StyledComponents';
+import SkillCategory from './SkillCategory';
 import { skillsFrontEnd, skillsBackEnd } from '../content/skills';
 
 export default function Skills() {
 	return (
-		<div className='page-container'>
+		<SectionWrapper>
 			<section className='skills-page'>
 				<h2>Skills & Tech Stack</h2>
 				<div className='skills-content'>
@@ -26,6 +27,6 @@ export default function Skills() {
 					</div>
 				</div>
 			</section>
-		</div>
+		</SectionWrapper>
 	);
 }

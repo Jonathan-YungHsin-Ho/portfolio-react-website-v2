@@ -2,6 +2,7 @@ export const projects = [
 	{
 		image: 'qualityhub.png',
 		thumbnail: '#096dd9',
+		iconColor: 'white',
 		fields: {
 			Product: 'QualityHub + InterviewQ',
 			'Team Role':
@@ -52,6 +53,7 @@ export const projects = [
 		image: 'jambdatreasurehunt.png',
 		thumbnail: '#e0ffff',
 		'thumbnail-border': '#14121f',
+		iconColor: '#121212',
 		fields: {
 			Product: 'JAMbda Treasure Hunt',
 			'Team Role':
@@ -83,6 +85,7 @@ export const projects = [
 	{
 		image: 'lambdalegend2.png',
 		thumbnail: '#bb1333',
+		iconColor: 'white',
 		fields: {
 			Product: 'The Legend of Lambda',
 			'Team Role':
@@ -110,6 +113,7 @@ export const projects = [
 	{
 		image: 'icnst.png',
 		thumbnail: '#8ac64b',
+		iconColor: '#121212',
 		fields: {
 			Product: 'International Child Nutrition Status Tracking',
 			'Team Role':
@@ -138,6 +142,7 @@ export const projects = [
 	{
 		image: 'rideforlife.png',
 		thumbnail: '#536d3e',
+		iconColor: 'white',
 		fields: {
 			Product: 'Ride for Life with Safe',
 			'Team Role':
@@ -164,6 +169,7 @@ export const projects = [
 	{
 		image: 'createadventure.png',
 		thumbnail: '#ff0000',
+		iconColor: '#121212',
 		fields: {
 			Product: 'Create Your Own Adventure',
 			Award: 'Best Overall for Lambda Winter 2020 30-Hour Hackathon',
@@ -193,9 +199,10 @@ export const projects = [
 		image: 'githired.png',
 		thumbnail: '#f0f8ff',
 		'thumbnail-border': '#14121f',
+		iconColor: '#121212',
 		fields: {
 			Product: 'GitHired',
-			Type: 'Individual project',
+			// Type: 'Individual project',
 			Description:
 				'App providing information regarding software development jobs via GitHub Jobs API',
 			'Front-End': 'ReactJS, React Redux, React Hooks, axios, thunk',
@@ -213,9 +220,10 @@ export const projects = [
 	{
 		image: 'brewery.png',
 		thumbnail: '#ffb900',
+		iconColor: '#121212',
 		fields: {
 			Product: 'Find A Brewery!',
-			Type: 'Individual project',
+			// Type: 'Individual project',
 			Description:
 				'App providing searchable information regarding American breweries via Open Brewery API',
 			'Front-End': 'ReactJS, React Redux, React Hooks, axios, thunk',

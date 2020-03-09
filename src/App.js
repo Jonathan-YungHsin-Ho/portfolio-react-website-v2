@@ -1,30 +1,19 @@
 import React from 'react';
 import { Route } from 'react-router-dom';
 import './App.css';
-
-// Contexts
+import GlobalStyle from './styled-components/GlobalStyle';
 import ModeProvider from './contexts/ModeContext';
-
-// Components
-import NavBar from './components/NavBar';
-import Footer from './components/Footer';
-
-// Pages
-import Landing from './pages/Landing';
-import About from './pages/About';
-import Skills from './pages/Skills';
-import Projects from './pages/Projects';
-import Contact from './pages/Contact';
+import { NavBar, Footer } from './components';
+import { Main, About, Contact } from './pages';
 
 function App() {
 	return (
 		<div className='App'>
 			<ModeProvider>
+				<GlobalStyle />
 				<NavBar />
-				<Route exact path='/' component={Landing} />
+				<Route exact path='/' component={Main} />
 				<Route path='/about' component={About} />
-				<Route path='/skills' component={Skills} />
-				<Route path='/projects' component={Projects} />
 				<Route path='/Contact' component={Contact} />
 				<Footer />
 			</ModeProvider>
