@@ -23,10 +23,10 @@ export const projects = [
 		],
 		stack: {
 			'Front-End Stack':
-				'ReactJS, React Router, Apollo Client, GraphQL, axios, date-fns, jwt-decode, pusher-js, socket.io',
+				'ReactJS | React Router | Apollo Client | GraphQL | axios | date-fns | jwt-decode | pusher-js | socket.io',
 			'Back-End Stack':
-				'Node.js, Express, graphql-yoga, Prisma, Apollo Server, Apollo Federation, bcryptjs, dotenv, jsonwebtoken, Stripe, jest, supertest',
-			'Gateway Stack': 'Apollo Server, Apollo Gateway, GraphQL',
+				'Node.js | Express | graphql-yoga | Prisma | Apollo Server | Apollo Federation | bcryptjs | dotenv | jsonwebtoken | Stripe | jest | supertest',
+			'Gateway Stack': 'Apollo Server | Apollo Gateway | GraphQL',
 		},
 		site: 'https://explorequality.com/',
 		links: [
@@ -69,20 +69,20 @@ export const projects = [
 		],
 		stack: {
 			'Front-End Stack':
-				'ReactJS, React Router, Context API, axios, styled-components',
+				'ReactJS | React Router | Context API | axios | styled-components',
 		},
 		site: 'https://teamjam.netlify.com/',
 		links: [
 			{
 				icon: ['fab', 'youtube'],
 				text: 'Demo 1',
+				url: 'https://youtu.be/Tmc3t5Y7Hhs?t=1044',
+			},
+			{
+				icon: ['fab', 'youtube'],
+				text: 'Demo 2',
 				url: 'https://youtu.be/4Sdw_SOQ4HU',
 			},
-			// {
-			// 	icon: ['fab', 'youtube'],
-			// 	text: 'Demo 2',
-			// 	url: 'https://youtu.be/Y3tNF6Y1f0k?t=28',
-			// },
 			{
 				icon: ['fab', 'github'],
 				text: 'Code',
@@ -113,7 +113,7 @@ export const projects = [
 		],
 		stack: {
 			'Front-End Stack':
-				'ReactJS, React Router, Context API, axios, styled-components, NES.css, pusher-js',
+				'ReactJS | React Router | Context API | axios | styled-components | NES.css | pusher-js',
 		},
 		site: 'https://lambdalegend.netlify.com/',
 		links: [
@@ -143,9 +143,9 @@ export const projects = [
 		},
 		stack: {
 			'Front-End Stack':
-				'ReactJS, React Router, Context API, React Hooks, axios, recharts, styled-components',
+				'ReactJS | React Router | Context API | React Hooks | axios | recharts | styled-components',
 			'Back-End Stack':
-				'Node.js, Express, bcryptjs, cors, dotenv, helmet, jsonwebtoken, knex, knex-cleaner, sqlite (development), nodemon (development), pg (Production)',
+				'Node.js | Express | bcryptjs | cors | dotenv | helmet | jsonwebtoken | knex | knex-cleaner | sqlite (development) | nodemon (development) | pg (Production)',
 		},
 		responsibilities: [
 			'Coordinated front-end team of Web UI Developer and Front-End Developers',
@@ -188,7 +188,7 @@ export const projects = [
 		],
 		stack: {
 			'Back-End Stack':
-				'Node.js, Express, bcryptjs, cloudinary, cors, dotenv, express-fileupload, helmet, jsonwebtoken, knex, knex-cleaner, twilio, sqlite, cross-env, jest, nodemon, supertest, pg',
+				'Node.js | Express | bcryptjs | cloudinary | cors | dotenv | express-fileupload | helmet | jsonwebtoken | knex | knex-cleaner | twilio | sqlite | cross-env | jest | nodemon | supertest | pg',
 		},
 		site: 'https://rfl.netlify.com/',
 		links: [
@@ -223,7 +223,7 @@ export const projects = [
 		],
 		stack: {
 			'Front-End Stack':
-				'ReactJS, React Router, React Hooks, axios, d3, styled-components, modali',
+				'ReactJS | React Router | React Hooks | axios | d3 | styled-components | modali',
 		},
 		site: 'https://createadventure.netlify.com/',
 		links: [
@@ -249,7 +249,7 @@ export const projects = [
 			Description:
 				'App providing information regarding software development jobs via GitHub Jobs API',
 			Type: 'Personal project; designed and built ReactJS app',
-			'Front-End Stack': 'ReactJS, React Redux, React Hooks, axios, thunk',
+			'Front-End Stack': 'ReactJS | React Redux | React Hooks | axios | thunk',
 		},
 		site: 'https://githired.now.sh/',
 		links: [
@@ -270,7 +270,7 @@ export const projects = [
 			Description:
 				'App providing searchable information regarding American breweries via Open Brewery API',
 			Type: 'Personal project; designed and built ReactJS app',
-			'Front-End Stack': 'ReactJS, React Redux, React Hooks, axios, thunk',
+			'Front-End Stack': 'ReactJS | React Redux | React Hooks | axios | thunk',
 		},
 		site: 'https://findabrewery.now.sh/',
 		links: [
