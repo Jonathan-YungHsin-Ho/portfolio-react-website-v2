@@ -19,7 +19,7 @@ export default function Project({ project }) {
 					<FontAwesomeIcon
 						icon={['fas', 'external-link-alt']}
 						size='sm'
-						className='icon'
+						// className='icon'
 						color={project.iconColor}
 					/>
 				</div>
@@ -33,6 +33,23 @@ export default function Project({ project }) {
 								<p>{value}</p>
 							</div>
 						))}
+					<div className='project-field project-responsibilities'>
+						{project.responsibilities && <h3>Responsibilities:</h3>}
+						<ul>
+							{project.responsibilities?.map((responsibility, index) => (
+								<li key={index}>{responsibility}</li>
+							))}
+						</ul>
+					</div>
+					<div className='project-fields'>
+						{project.stack &&
+							Object.entries(project.stack).map(([key, value]) => (
+								<div className='project-field' key={key}>
+									<h3 style={{ flexShrink: '0' }}>{key}:</h3>
+									<p>{value}</p>
+								</div>
+							))}
+					</div>
 				</div>
 				<div className='project-links'>
 					{project.links &&

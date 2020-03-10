@@ -6,6 +6,7 @@ export default function Landing() {
 	return (
 		<SectionWrapper>
 			<StyledLanding>
+				<span className='anchor' id='home'></span>
 				<div className='landing-image'></div>
 				<div className='landing-text'>
 					<h2>Hello, I'm Jonathan.</h2>
@@ -18,7 +19,7 @@ export default function Landing() {
 						education.
 					</p>
 					<p>
-						Proven leader with the skills needed to succeed in diverse team
+						Lifelong learner with the skills needed to succeed in diverse team
 						environments.
 					</p>
 				</div>
@@ -32,7 +33,7 @@ const StyledLanding = styled.div`
 	align-items: center;
 	flex-wrap: wrap;
 	width: 100%;
-	padding: 10rem 0 20rem;
+	padding: 7.5rem 0 7.5rem;
 
 	.landing-image {
 		background-image: url(/images/picture.jpg);

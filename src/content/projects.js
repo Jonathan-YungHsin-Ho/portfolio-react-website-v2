@@ -5,15 +5,28 @@ export const projects = [
 		iconColor: 'white',
 		fields: {
 			Project: 'QualityHub + InterviewQ',
-			'Team Role':
-				'Full-Stack Web Developer on cross-functional team with two UX Designers and six other Full-Stack Web Developers',
+			Role: 'Full-Stack Web Developer',
 			Description:
 				'Gig economy hub app connecting job seekers with career coaches in a variety of quality assessment areas',
-			'Front-End':
-				'ReactJS, React Router, Apollo Client, GraphQL, axios, date-fns, dotenv, jwt-decode, pusher-js, socket.io',
-			'Back-End':
+			Team:
+				'9-person cross-functional team with two UX Designers and six other Full-Stack Developers',
+		},
+		responsibilities: [
+			'Iterated features for all aspects of project',
+			'Implemented Apollo Client state management system for declarative and precise data fetching and caching',
+			'Implemented Cloudinary technology for Avatar image upload functionality',
+			'Implemented History and Coach Report pages and functionality on InterviewQ microservice for improved user experience',
+			'Built landing page for mobile responsiveness',
+			'Utilized Prisma + GraphQL-Yoga and Apollo Federation and Apollo Gateway to connect and coordinate data from back-end microservices',
+			'Built out InterviewQ back-end GraphQL API according to data models',
+			'Employed PostgresQL database using Prisma ORM to store and manage data',
+		],
+		stack: {
+			'Front-End Stack':
+				'ReactJS, React Router, Apollo Client, GraphQL, axios, date-fns, jwt-decode, pusher-js, socket.io',
+			'Back-End Stack':
 				'Node.js, Express, graphql-yoga, Prisma, Apollo Server, Apollo Federation, bcryptjs, dotenv, jsonwebtoken, Stripe, jest, supertest',
-			Gateway: 'Apollo Server, Apollo Gateway, GraphQL',
+			'Gateway Stack': 'Apollo Server, Apollo Gateway, GraphQL',
 		},
 		site: 'https://explorequality.com/',
 		links: [
@@ -28,24 +41,9 @@ export const projects = [
 				url: 'https://youtu.be/xksru1VUZd0',
 			},
 			{
-				icon: ['fas', 'code-branch'],
-				text: 'Front-End',
-				url: 'https://github.com/Lambda-School-Labs/quality-hub-core-fe',
-			},
-			{
-				icon: ['fas', 'code-branch'],
-				text: 'Core Back-End',
-				url: 'https://github.com/Lambda-School-Labs/quality-hub-core-be',
-			},
-			{
-				icon: ['fas', 'code-branch'],
-				text: 'InterviewQ Back-End',
-				url: 'https://github.com/Lambda-School-Labs/interview-q-be',
-			},
-			{
-				icon: ['fas', 'code-branch'],
-				text: 'Gateway',
-				url: 'https://github.com/Lambda-School-Labs/quality-hub-gateway-be',
+				icon: ['fab', 'github'],
+				text: 'Code',
+				url: 'https://github.com/TheCovey',
 			},
 		],
 	},
@@ -56,12 +54,22 @@ export const projects = [
 		iconColor: '#121212',
 		fields: {
 			Project: 'JAMbda Treasure Hunt',
-			'Team Role':
-				'Front-End Framework Developer on cross-functional team with one Django Back-End Developer/Front-End Developer and one Data Scientist',
+			Role: 'Front-End Framework Developer',
 			Description:
 				'Multi-User Dungeon RPG where players explore an island maze and compete to solve puzzles, applying computer science principles including: Algorithms and Data Structures, Blockchain, Graph Theory, and Computer Architecture',
-			'Front-End':
-				'ReactJS, React Router, Context API, axios, styled-components, dotenv',
+			Team:
+				'3-person cross-functional team with one Django Back-End Developer/Front-End Developer and one Data Scientist',
+		},
+		responsibilities: [
+			'Developed React web app interacting with game server API and back-end Django database',
+			'Implemented Context API to centralize state management',
+			'Designed and built game map to dynamically render game graph',
+			'Implemented navigation and game logic to handle asynchronous data requests with sleep requirements',
+			'Composed custom hooks to access back-end data and game server API endpoints reinforcing DRY code principle',
+		],
+		stack: {
+			'Front-End Stack':
+				'ReactJS, React Router, Context API, axios, styled-components',
 		},
 		site: 'https://teamjam.netlify.com/',
 		links: [
@@ -76,9 +84,9 @@ export const projects = [
 			// 	url: 'https://youtu.be/Y3tNF6Y1f0k?t=28',
 			// },
 			{
-				icon: ['fas', 'code-branch'],
-				text: 'Front-End Repo',
-				url: 'https://github.com/Team-JAM/front-end/tree/development',
+				icon: ['fab', 'github'],
+				text: 'Code',
+				url: 'https://github.com/Team-JAM/',
 			},
 		],
 	},
@@ -88,11 +96,23 @@ export const projects = [
 		iconColor: 'white',
 		fields: {
 			Project: 'The Legend of Lambda',
-			'Team Role':
-				'Front-End Framework Developer on cross-functional team with two Back-End Developers and one other Front-End Developer',
+			Role: 'Front-End Framework Developer',
 			Description:
 				'Multi-User Dungeon RPG where players collect questions preparing them for technical interviews',
-			'Front-End':
+			Team:
+				'4-person cross-functional team with two Back-End Developers and one other Front-End Developer',
+		},
+		responsibilities: [
+			'Developed React web app interacting with Django back-end game server',
+			'Implemented Context API to centralize state management',
+			'Built game components to dynamically render game map and avatar',
+			'Implemented mouse and keyboard control for improved user experience',
+			'Built Avatar updating functionality for user customization',
+			'Leveraged PusherJS technology for real-time in-game chat functionality',
+			'Designed project for mobile responsiveness',
+		],
+		stack: {
+			'Front-End Stack':
 				'ReactJS, React Router, Context API, axios, styled-components, NES.css, pusher-js',
 		},
 		site: 'https://lambdalegend.netlify.com/',
@@ -103,10 +123,9 @@ export const projects = [
 				url: 'https://youtu.be/Y3tNF6Y1f0k?t=28',
 			},
 			{
-				icon: ['fas', 'code-branch'],
-				text: 'Front-End Repo',
-				url:
-					'https://github.com/CS25-BuildWeek-JJTBN/Front-End/tree/development/lambda-mud-client',
+				icon: ['fab', 'github'],
+				text: 'Code',
+				url: 'https://github.com/CS25-BuildWeek-JJTBN/',
 			},
 		],
 	},
@@ -116,25 +135,35 @@ export const projects = [
 		iconColor: '#121212',
 		fields: {
 			Project: 'International Child Nutrition Status Tracking',
-			'Team Role':
-				'Front-End Framework Developer and Back-End Developer on cross-functional team with one Web UI Developer and two other Front-End Developers',
+			Role: 'Front-End Framework Developer and Node Back-End Developer',
 			Description:
 				'App tracking and organizing data for global child malnutrition nonprofits',
-			'Front-End':
+			Team:
+				'4-person cross-functional team with one Web UI Developer and two other Front-End Developers',
+		},
+		stack: {
+			'Front-End Stack':
 				'ReactJS, React Router, Context API, React Hooks, axios, recharts, styled-components',
-			'Back-End':
+			'Back-End Stack':
 				'Node.js, Express, bcryptjs, cors, dotenv, helmet, jsonwebtoken, knex, knex-cleaner, sqlite (development), nodemon (development), pg (Production)',
 		},
+		responsibilities: [
+			'Coordinated front-end team of Web UI Developer and Front-End Developers',
+			'Implemented Context API to centralize state management',
+			'Built a Web API with functional endpoints to manage data for front-end application',
+			'Employed REST architectural pattern for back-end API and provided data persistence',
+			'Incorporated authentication and authorization services in API for security',
+		],
 		site: 'https://icnst.netlify.com/',
 		links: [
 			{
-				icon: ['fas', 'code-branch'],
-				text: 'Front-End Repo',
+				icon: ['fab', 'github'],
+				text: 'Front-End Code',
 				url: 'https://github.com/ICNST/FE/tree/jonathan-ho',
 			},
 			{
-				icon: ['fas', 'code-branch'],
-				text: 'Back-End Repo',
+				icon: ['fab', 'github'],
+				text: 'Back-End Code',
 				url: 'https://github.com/Jonathan-YungHsin-Ho/bw3-backend',
 			},
 		],
@@ -144,12 +173,21 @@ export const projects = [
 		thumbnail: '#536d3e',
 		iconColor: 'white',
 		fields: {
-			Product: 'Ride for Life with Safe',
-			'Team Role':
-				'Node Back-End Developer on cross-functional team with two Web UI Developers and two Front-End Developers',
+			Project: 'Ride for Life with Safe',
+			Role: 'Node Back-End Developer',
 			Description:
 				'App connecting pregnant Uganda women with nearest motorcycle ambulances for health facility access',
-			'Back-End':
+			'Team Role':
+				'5-person cross-functional team with two Web UI Developers and two Front-End Developers',
+		},
+		responsibilities: [
+			'Built a Web API with functional endpoints in coordination with the front-end team',
+			'Employed REST architectural pattern for API and provided data persistence',
+			'Incorporated authentication and authorization services for security',
+			'Implemented automated end-to-end tests using Jest and Supertest',
+		],
+		stack: {
+			'Back-End Stack':
 				'Node.js, Express, bcryptjs, cloudinary, cors, dotenv, express-fileupload, helmet, jsonwebtoken, knex, knex-cleaner, twilio, sqlite, cross-env, jest, nodemon, supertest, pg',
 		},
 		site: 'https://rfl.netlify.com/',
@@ -160,9 +198,9 @@ export const projects = [
 				url: 'https://youtu.be/GQoPMRK_eyU?t=250',
 			},
 			{
-				icon: ['fas', 'code-branch'],
-				text: 'Back-End Repo',
-				url: 'https://github.com/RideforLife/BackEnd',
+				icon: ['fab', 'github'],
+				text: 'Code',
+				url: 'https://github.com/RideforLife/',
 			},
 		],
 	},
@@ -171,14 +209,21 @@ export const projects = [
 		thumbnail: '#ff0000',
 		iconColor: '#121212',
 		fields: {
-			Product: 'Create Your Own Adventure',
+			Project: 'Create Your Own Adventure',
 			Award: 'Best Overall for Lambda Winter 2020 30-Hour Hackathon',
-			'Team Role':
-				'Front-End Developer on cross-functional team with three Back-End Developers and four other Front-End Developers',
+			Role: 'Front-End Developer',
 			Description:
 				'App platform for collaboratively creating interactive stories',
-			'Front-End':
-				'ReactJS, React Router, React Hooks, axios, d3, styled-components, dotenv, modali',
+			Team:
+				'8-person cross-functional team with three Back-End Developers and four other Front-End Developers',
+		},
+		responsibilities: [
+			'Designed and built front-end team page to resemble classic book covers',
+			'Designed and built story components to resemble book pages',
+		],
+		stack: {
+			'Front-End Stack':
+				'ReactJS, React Router, React Hooks, axios, d3, styled-components, modali',
 		},
 		site: 'https://createadventure.netlify.com/',
 		links: [
@@ -188,10 +233,9 @@ export const projects = [
 				url: 'https://youtu.be/aXe9Fm_1oUg',
 			},
 			{
-				icon: ['fas', 'code-branch'],
-				text: 'Front-End Repo',
-				url:
-					'https://github.com/Lambda-Hackathon-2020-Git-Adventure/Git-Adventure-Frontend',
+				icon: ['fab', 'github'],
+				text: 'Code',
+				url: 'https://github.com/Lambda-Hackathon-2020-Git-Adventure/',
 			},
 		],
 	},
@@ -201,17 +245,17 @@ export const projects = [
 		'thumbnail-border': '#14121f',
 		iconColor: '#121212',
 		fields: {
-			Product: 'GitHired',
-			// Type: 'Individual project',
+			Project: 'GitHired',
 			Description:
 				'App providing information regarding software development jobs via GitHub Jobs API',
-			'Front-End': 'ReactJS, React Redux, React Hooks, axios, thunk',
+			Type: 'Personal project; designed and built ReactJS app',
+			'Front-End Stack': 'ReactJS, React Redux, React Hooks, axios, thunk',
 		},
 		site: 'https://githired.now.sh/',
 		links: [
 			{
-				icon: ['fas', 'code-branch'],
-				text: 'Code Repo',
+				icon: ['fab', 'github'],
+				text: 'Code',
 				url:
 					'https://github.com/Jonathan-YungHsin-Ho/React-Redux-App/tree/jonathan-ho/github-jobs',
 			},
@@ -222,17 +266,17 @@ export const projects = [
 		thumbnail: '#ffb900',
 		iconColor: '#121212',
 		fields: {
-			Product: 'Find A Brewery!',
-			// Type: 'Individual project',
+			Project: 'Find A Brewery!',
 			Description:
 				'App providing searchable information regarding American breweries via Open Brewery API',
-			'Front-End': 'ReactJS, React Redux, React Hooks, axios, thunk',
+			Type: 'Personal project; designed and built ReactJS app',
+			'Front-End Stack': 'ReactJS, React Redux, React Hooks, axios, thunk',
 		},
 		site: 'https://findabrewery.now.sh/',
 		links: [
 			{
-				icon: ['fas', 'code-branch'],
-				text: 'Code Repo',
+				icon: ['fab', 'github'],
+				text: 'Code',
 				url:
 					'https://github.com/Jonathan-YungHsin-Ho/open-brewery-app/tree/master/open-brewery',
 			},
