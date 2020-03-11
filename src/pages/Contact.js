@@ -25,7 +25,7 @@ export default function Contact() {
 	) => {
 		window.emailjs
 			.send(
-				'gmail',
+				'default_service',
 				templateId,
 				{ fromName, fromEmail, message, toEmail },
 				user,
